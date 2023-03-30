@@ -57,12 +57,14 @@ BAN_COMMAND = get_config("BAN_COMMAND", "ban")
 #
 UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 # start command
-START_COMMAND = get_config("START_COMMAND", "lstart")
+START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hay, silahkan ketik pesanmu dibawah ini, nanti saya akan membalasanya Jika sudah online.\n"
+    "Hay, Aku adalah bot pribadi milik Rexa\n"
+    "Silahkan Ketik pesan mu..\n"
+    "nanti Rexa akan membalas pesan mu lewat Bot ini\n"
     "───────────────────────\n"
-    "©Manage by : @Vckyouubitch"
+    "⚡ Manage by : JustRex.t.me"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -74,7 +76,7 @@ ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
         "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
+        "Jangan lupa join [Channel Support](https://t.me/rexaprivateroom)"
     )
 )
 # message to indicate,
